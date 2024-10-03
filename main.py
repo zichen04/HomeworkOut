@@ -9,5 +9,5 @@ def main():
         if (youtube.isTimeUp()):
             if (detect.detectPushup()):
                 # do stuff
+                print("good job!")
     
-
