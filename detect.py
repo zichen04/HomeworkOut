@@ -1,7 +1,7 @@
 import cv2
 import cv2.legacy
 
-def detectPushup() -> int:
+def detectPushup() -> bool:
     state = "up"
     nums = 0
     isFirst = True
@@ -41,7 +41,7 @@ def detectPushup() -> int:
 
 
         if nums == 10:
-            break
+            return True
 
 
         if success:
@@ -79,6 +79,6 @@ def detectPushup() -> int:
     webcamIn.release()
     cv2.destroyAllWindows()
     
-    return nums
+    return False
 
 
