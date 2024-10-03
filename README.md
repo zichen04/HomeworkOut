@@ -6,7 +6,7 @@ The idea originally started as "homeworkout" as in, homework workout. Instead of
 
 
 Currently as of 10/2/2024:
-The pushup detection algorithm is fully functional. I am using OpenCV and the built in KCF tracking to track my person, and detect when pushups are performed.
 
-demo of pushup tracking: https://github.com/user-attachments/assets/1bde371b-964c-4cc2-b3d1-e43cb736a7b5
+The pushup detection algorithm is fully functional. I am using OpenCV and the built in KCF tracking to track my person, and detect when pushups are performed.
+Here is a demo of pushup tracking: https://github.com/user-attachments/assets/1bde371b-964c-4cc2-b3d1-e43cb736a7b5
 
